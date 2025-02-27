@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp">
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center|top"
+        android:background="#03A9F4" />
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="top"
+        android:background="#2196F3" />
 
-        <Button
-            android:id="@+id/button_first"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/next"
-            app:layout_constraintBottom_toTopOf="@id/textview_first"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="end"
+        android:background="#3F51B5" />
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center|end"
+        android:background="#FF9800" />
 
-        <TextView
-            android:id="@+id/textview_first"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/lorem_ipsum"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button_first" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:background="#FF5722" />
+
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center|start"
+        android:background="#FFC107" />
+
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom"
+        android:background="#4CAF50" />
+
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom|center"
+        android:background="#009688" />
+
+    <View
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom|end"
+        android:background="#FFEB3B" />
+
+
+</FrameLayout>
